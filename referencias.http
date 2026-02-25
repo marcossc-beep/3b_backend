@@ -1,0 +1,32 @@
+### REST CLIENT
+
+GET http://localhost:3000/usuarios
+
+###
+
+POST http://localhost:3000/usuarios
+Content-Type: application/json
+
+{
+    "nome": "Pedrão",
+    "idade": 26
+}
+
+###
+
+GET http://localhost:3000/receitas
+
+###
+
+POST http://localhost:3000/receitas
+Content-Type: application/json
+
+{
+    "titulo": "Bolo de cenoura",
+    "ingredientes": "Ovo, trigo, açucar",
+    "modo de preparo": "Mistura tudo e joga no forno"
+}
+
+###
+
+PUT http://localhost:3000/receitas/kkkkkk
